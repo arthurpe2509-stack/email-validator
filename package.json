@@ -1,0 +1,23 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/arthurpe2509-stack/email-validator#readme",
+  "bugs": {
+    "url": "https://github.com/arthurpe2509-stack/email-validator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurpe2509-stack/email-validator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "validateEmail.js",
+  "scripts": {
+    "start": "node validateEmail.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
