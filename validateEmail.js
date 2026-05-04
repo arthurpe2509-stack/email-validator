@@ -1,8 +1,8 @@
 import chalk from "chalk";
-
+import validator from "validator";
 function validateEmail(email) {
 
-    if (email== "123456") {
+    if (validator.isEmail(email)) {
         console.log(`${chalk.green(email)} est valide`);
         
     }else {
@@ -11,5 +11,5 @@ function validateEmail(email) {
 
 }
 }
-validateEmail("123456");
+validateEmail("1234@mail.com");
 validateEmail("true");
